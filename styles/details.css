@@ -1,0 +1,20 @@
+.details {
+    background: rgb(128, 128, 211);
+    display: flexbox;
+    margin: 0 auto; 
+}
+
+.detail--column {
+    
+    border: 1px dotted rgb(23, 22, 22);
+}
+.detail--column h2 {
+    padding-left: 20px; /* Adjust this value as needed */
+}
+
+
+@media (max-width: 768px) {
+    .details {
+      grid-template-columns: 1fr; /* Stack them vertically on smaller screens */
+    }
+  }
