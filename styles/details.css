@@ -1,6 +1,7 @@
 .details {
     background: rgb(128, 128, 211);
-    display: flexbox;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin: 0 auto; 
 }
 
